@@ -71,7 +71,7 @@ Player.prototype.reset = function() {
 };
 // score and game reset.
 Player.prototype.goal = function() {
-    this.row = 0;
+    this.row = 1;
     window.setTimeout(function() {
         // Resets all enemies 
         game.allEnemies.forEach(function(elem, index) {
